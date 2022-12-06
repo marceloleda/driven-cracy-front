@@ -6,7 +6,7 @@ import axios from "axios";
 
 //DEV
 // const URL = "http://localhost:5002";https://dulcestore.onrender.com
-const URL = "http://localhost:5000";
+const URL = "https://driven-cracy-809i.onrender.com";
 
 export const api = axios.create({ baseURL: URL });
 
