@@ -12,7 +12,7 @@ export default function GetOptions(){
     const [options, setOptions] = useState([])
     const {id} = useParams()
     useEffect(()=>{
-        const URL = `https://driven-cracy-809i.onrender.com/poll/${id}/choice`
+        const URL = `https://driven-cracy-b394.onrender.com/poll/${id}/choice`
         const promise = axios.get(URL)
         console.log(URL)
         
@@ -25,8 +25,7 @@ export default function GetOptions(){
           })
     }, [])
     function votar(idVote){
-        const URL = `https://driven-cracy-809i.onrender.com/choice/${idVote}/vote`
-        console.log(URL)
+        const URL = `https://driven-cracy-b394.onrender.com/choice/${idVote}/vote`
         const promise = axios.post(URL)
         promise.then((res)=>{
             console.log(res)

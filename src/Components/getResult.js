@@ -18,7 +18,6 @@ export default function GetResult(){
         getResult(id)
         .then((res)=>{
             setResult(res.data)
-            // localStorage.setItem("idPoll", options?.pollId)
         })
         .catch((err)=>{
             console.log(err.message)
