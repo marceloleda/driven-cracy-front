@@ -47,7 +47,7 @@ export default function AddOptions(){
                     <Forms>
                         <form onSubmit={sendOption}>
                             <h2>Opcoes de resposta</h2>
-                            <Inserir id="title" type="text" placeholder="ex: Alemanha vai ganhar" value={option.title} onChange={(e)=>
+                            <Inserir id="title" type="text" placeholder="ex: Brasil vai ganhar" value={option.title} onChange={(e)=>
                                 setOption({...option, title: e.target.value})}required/>
 
                             <Botao type="submit">CRIAR OPCAO</Botao>
