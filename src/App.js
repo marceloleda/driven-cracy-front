@@ -16,7 +16,7 @@ function App() {
     <>
       <GlobalStyle/>
       <Routes>
-        <Route path="/home" element={<Home/>}/>
+        <Route path="/" element={<Home/>}/>
         <Route path="/add-survey" element={<AddSurvey/>}/>
         <Route path="/poll" element={<Poll/>}/>
         <Route path="/choice" element={<AddOptions/>}/>

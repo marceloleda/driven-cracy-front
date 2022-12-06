@@ -39,7 +39,7 @@ export default function GetResult(){
                     
                 </CriaEnquete>
                 <Botao2 onClick={()=>{
-                    navigate("/home")
+                    navigate("/")
                 }}>Inicio</Botao2>
             </Conteiner>
         </>
